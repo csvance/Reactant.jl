@@ -12,6 +12,9 @@ struct_field_comment_style = "outofline"
 show_c_function_prototype = false
 printer_blacklist = [
     "MAKE_MLIR_PYTHON_QUALNAME",
+    # C attribute / token-pasting macros from pjrt_c_api.h that have no Julia equivalent
+    "PJRT_NO_DISCARD",
+    "_PJRT_API_STRUCT_FIELD",
 ]
 output_ignorelist = [
     "MLIR_PYTHON_API_EXPORTED",

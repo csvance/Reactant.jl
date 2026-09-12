@@ -4874,13 +4874,9 @@ const PJRT_Triton = PJRT_Triton_Extension
     PJRT_Triton_Extension_STRUCT_SIZE = 0x0000000000000020
 end
 
-const PJRT_NO_DISCARD = [[nodiscard]]
-
 const PJRT_API_MAJOR = 0
 
 const PJRT_API_MINOR = 114
-
-const _PJRT_API_STRUCT_FIELD = fn_type(fn_type) * fn_type
 
 const PJRT_API_CALLBACK_EXTENSION_VERSION = 1
 
